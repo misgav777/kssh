@@ -12,3 +12,6 @@ Paste this one-liner into your terminal:
 
 ```bash
 curl -sL https://raw.githubusercontent.com/misgav777/kssh/main/kssh | sudo tee /usr/local/bin/kssh > /dev/null && sudo chmod +x /usr/local/bin/kssh
+
+Usage
+kssh <hostname>
