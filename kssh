@@ -2,6 +2,7 @@
 
 # kssh: Connect to EC2 instance via SSM using a hostname/tag-based lookup
 
+
 set -e
 
 HOSTNAME=$1
