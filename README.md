@@ -17,7 +17,7 @@ sudo mkdir -p /usr/local/bin \
   && sudo chmod +x /usr/local/bin/kssh
 ```
 
-## ✅ Requires:
+## ✅ Requires
 
 > - AWS CLI installed (`brew install awscli`)
 > - AWS credentials configured (`aws configure`)
