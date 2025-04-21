@@ -7,6 +7,16 @@
 🧰 Just AWS CLI + tag-based lookups.
 
 ---
+## Quick Install
+
+```bash
+# create dir & install kssh
+sudo mkdir -p /usr/local/bin \
+  && curl -sL https://raw.githubusercontent.com/misgav777/kssh/main/kssh \
+     | sudo tee /usr/local/bin/kssh > /dev/null \
+  && sudo chmod +x /usr/local/bin/kssh
+```
+
 
 ## 🚀 Quick Install (macOS/Linux)
 
@@ -86,6 +96,13 @@ If a prefix doesn't match one of the expected formats, `kssh` will throw an erro
   - `ssm:StartSession`
   - `ec2:DescribeInstances`
 
+---
+
+## Troubleshooting
+
+- **`No such directory /usr/local/bin`**  
+  Run `sudo mkdir -p /usr/local/bin` or install to `$HOME/.local/bin` by exporting `KSSH_INSTALL_DIR`.
+  
 ---
 
 ## 🧼 Uninstall
