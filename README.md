@@ -12,6 +12,15 @@
 
 Paste this one-liner into your terminal to install:
 
+## Prerequisites
+
+- A directory in your `$PATH` where you can install executables.
+- If you intend to use `/usr/local/bin`, ensure it exists:
+
+```bash
+sudo mkdir -p /usr/local/bin
+```
+
 ```bash
 curl -sL https://raw.githubusercontent.com/misgav777/kssh/main/kssh | sudo tee /usr/local/bin/kssh > /dev/null && sudo chmod +x /usr/local/bin/kssh
 ```
