@@ -20,8 +20,7 @@ sudo mkdir -p /usr/local/bin \
 ## ✅ Requires
 
 > - AWS CLI installed (`brew install awscli`)
-> - AWS credentials configured (`aws configure`)
-> - IAM permissions for `ssm:StartSession` and `ec2:DescribeInstances`
+> - Init_oktaws 
 
 ---
 
