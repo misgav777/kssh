@@ -20,7 +20,7 @@ sudo mkdir -p /usr/local/bin \
 ## ✅ Requires
 
 > - AWS CLI installed (`brew install awscli`)
-> - Init_oktaws 
+> - IOKTA CLI ToolKit (`https://stackoverflowteams.com/c/kenshoo/articles/1974`)
 
 ---
 
